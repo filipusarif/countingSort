@@ -1,8 +1,7 @@
 #include <iostream>
 using namespace std;
 
-void countSort(int arr[], int size) {
-
+void countSort(int arr[], int size) { //parameter formal
 
   int max = arr[0];
 
@@ -16,6 +15,8 @@ void countSort(int arr[], int size) {
     int maxSize = max + 1;
     int output[maxSize];
     int count[maxSize];
+
+    arr[10] = {0,1,2,3,4,5,6,7,8,9}
 
   // inisialisasi array count dengan 0 semua
   for (int i = 0; i <= max; ++i) {
@@ -62,7 +63,23 @@ void tampilArray(int array[], int ukuran) {
 
 int main() {
   //int array[] = {4, 2, 2, 8, 3, 3, 1};
-  int arr[] = {5,7,2,9,1,6};
+  int a[] = {5,7,2,9,1,6};
+   b[] = 0 1 1 0 0 1 1 1 0 1
+
+
+    cout[] =    0 0 1 2 2 2 3 5 5 5 // sebagai index di hasil akhir
+
+
+    b[]=    0 1 2 5 6 7 9 0 0 0 // nilai
+
+    a[2] = 0
+    b[2] = 2
+    a[4] = b[4]
+    a[2] ? 2
+
+    a[] =   0 1 2 5 6 7 9
+            0 1 2 3 4 5 6
+
   int n = sizeof(arr) / sizeof(arr[0]);
   cout << "Array yang belum diurutkan : ";
   tampilArray(arr,n);
