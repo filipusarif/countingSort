@@ -18,7 +18,7 @@ void countSort(int arr[], int n) {
 
 
   // inisialisasi array count dengan nilai 0 pada semua data
-  for (int i = 0; i <= max; ++i) {
+  for (int i = 0; i <= max; i++) {
     count[i] = 0;
   }
 
